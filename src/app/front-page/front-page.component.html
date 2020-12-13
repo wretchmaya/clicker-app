@@ -1,0 +1,7 @@
+<div *ngIf="router.url.includes('welcome')" class="front-page">
+	<h1>ENTER YOUR NAME</h1>
+	<form>
+		<input type="text" [(ngModel)]="playerName" name="form">
+		<button (click)="onNameEnter()">Start the game</button>
+	</form>
+</div>

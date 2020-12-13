@@ -1,0 +1,11 @@
+.front-page {
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+	border: 2px solid black;
+	justify-content: center;
+	flex-direction: column;
+	form, h1 {
+		margin: 20px auto;
+	}
+}
