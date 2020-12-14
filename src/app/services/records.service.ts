@@ -20,6 +20,7 @@ export class RecordsService {
 	winToggle;
 	noWinToggle;
 	goodToggle;
+	// test field
 	constructor() { }
 	checkLS() {
 		if (localStorage.getItem('timer_5')) {
