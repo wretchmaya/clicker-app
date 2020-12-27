@@ -1,22 +1,19 @@
 <div class="container">
 	<h2>Welcome, {{recordService.userName}}</h2>
-	<ul>
-		<li>
-			<label for="timer_5">5 seconds</label>
-			<input type="radio" id="timer_5" name="timer" value="5" (change)="recordService.changeTimer($event)" 
-				[disabled]="recordService.radioDisabled">
-		</li>
-		<li>
-			<label for="timer_10">10 seconds</label>
-			<input type="radio" id="timer_10" name="timer" value="10" (change)="recordService.changeTimer($event)"
-				[disabled]="recordService.radioDisabled" checked="">
-		</li>
-		<li>
-			<label for="timer_15">15 seconds</label>
-			<input type="radio" id="timer_15" name="timer" value="15" (change)="recordService.changeTimer($event)"
-				[disabled]="recordService.radioDisabled">
-		</li>
-	</ul>
+	<mat-action-list>
+		<mat-list-item>
+			<mat-radio-button type="radio" id="timer_5" name="timer" value="5" (change)="recordService.changeTimer($event)" 
+				[disabled]="recordService.radioDisabled">5 seconds</mat-radio-button>
+		</mat-list-item>
+		<mat-list-item>
+			<mat-radio-button type="radio" id="timer_10" name="timer" value="10" (change)="recordService.changeTimer($event)"
+				[disabled]="recordService.radioDisabled" checked="">10 seconds</mat-radio-button>
+		</mat-list-item>
+		<mat-list-item>
+			<mat-radio-button type="radio" id="timer_15" name="timer" value="15" (change)="recordService.changeTimer($event)"
+				[disabled]="recordService.radioDisabled">15 seconds</mat-radio-button>
+		</mat-list-item>
+	</mat-action-list>
 	<p>Your clicks record for {{recordService.tempTimer}} seconds is {{recordService.previousRecord || 'empty'}}.</p>
 	<div *ngIf="recordService.winToggle">
 		<p>Congratilations {{recordService.userName}}, you set new record for {{recordService.tempTimer}} sec =

@@ -89,9 +89,9 @@ export class RecordsService {
 		this.clicks++;
 	}
 	changeTimer(event) {
-		this.timerName = event.target.id;
-		this.timer = +event.target.value;
-		this.tempTimer = +event.target.value;
+		this.timerName = event.source.id;
+		this.timer = +event.value;
+		this.tempTimer = +event.value;
 		this.displayRecord();
 	}
 }
