@@ -1,11 +1,21 @@
 .front-page {
-	display: flex;
-	width: 50%;
-	margin: 0 auto;
-	border: 2px solid black;
-	justify-content: center;
-	flex-direction: column;
-	form, h1 {
-		margin: 20px auto;
-	}
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: #303030;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  h1 {
+    margin: 20px auto;
+  }
+  form {
+	  display: flex;
+	  justify-content: center;
+	  .start-game-btn {
+		  margin-left: 5px;
+		  height: 53px;
+	  }
+  }
 }
