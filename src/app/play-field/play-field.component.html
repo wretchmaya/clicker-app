@@ -1,8 +1,8 @@
 <div>
-	<button id="clicker" (click)="startGame(); clickCount()"
+	<button mat-raised-button id="clicker" (click)="startGame(); clickCount()"
 		[disabled]="recordService.btnDisabled">{{recordService.btnText}}</button>
-	<button id="reset" (click)="resetGame()">RESET</button>
-	<button id="change-name" (click)="changeName()">CHANGE NAME</button>
+	<button mat-raised-button id="reset" (click)="resetGame()">RESET</button>
+	<button mat-raised-button id="change-name" (click)="changeName()">CHANGE NAME</button>
 	<h3>You have made <span>{{recordService.clicks}}</span> clicks</h3>
 	<h2>Timer: <span>{{recordService.timer}}</span>  sec</h2>
 	<div *ngIf="recordService.noWinToggle">

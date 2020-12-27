@@ -17,7 +17,7 @@
 				[disabled]="recordService.radioDisabled">
 		</li>
 	</ul>
-	<p>Your clicks record for {{recordService.timer}} seconds is {{recordService.previousRecord || 'empty'}}.</p>
+	<p>Your clicks record for {{recordService.tempTimer}} seconds is {{recordService.previousRecord || 'empty'}}.</p>
 	<div *ngIf="recordService.winToggle">
 		<p>Congratilations {{recordService.userName}}, you set new record for {{recordService.tempTimer}} sec =
 			{{recordService.clicks}} clicks!</p>

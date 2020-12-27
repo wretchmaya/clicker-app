@@ -232,45 +232,57 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _angular_material_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/material/button */
+    "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+    /* harmony import */
+
+
+    var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./app-routing.module */
     "./src/app/app-routing.module.ts");
     /* harmony import */
 
 
-    var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./app.component */
     "./src/app/app.component.ts");
     /* harmony import */
 
 
-    var _front_page_front_page_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _front_page_front_page_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./front-page/front-page.component */
     "./src/app/front-page/front-page.component.ts");
     /* harmony import */
 
 
-    var _clicker_clicker_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _clicker_clicker_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./clicker/clicker.component */
     "./src/app/clicker/clicker.component.ts");
     /* harmony import */
 
 
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! @angular/forms */
     "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
     /* harmony import */
 
 
-    var _play_field_play_field_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _play_field_play_field_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./play-field/play-field.component */
     "./src/app/play-field/play-field.component.ts");
     /* harmony import */
 
 
-    var _info_field_info_field_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _info_field_info_field_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./info-field/info-field.component */
     "./src/app/info-field/info-field.component.ts");
+    /* harmony import */
+
+
+    var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! @angular/platform-browser/animations */
+    "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
@@ -278,20 +290,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
       type: AppModule,
-      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+      bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     });
     AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
       factory: function AppModule_Factory(t) {
         return new (t || AppModule)();
       },
       providers: [],
-      imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"]]]
+      imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__["NoopAnimationsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatButtonModule"]]]
     });
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _front_page_front_page_component__WEBPACK_IMPORTED_MODULE_4__["FrontPageComponent"], _clicker_clicker_component__WEBPACK_IMPORTED_MODULE_5__["ClickerComponent"], _play_field_play_field_component__WEBPACK_IMPORTED_MODULE_7__["PlayFieldComponent"], _info_field_info_field_component__WEBPACK_IMPORTED_MODULE_8__["InfoFieldComponent"]],
-        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"]]
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _front_page_front_page_component__WEBPACK_IMPORTED_MODULE_5__["FrontPageComponent"], _clicker_clicker_component__WEBPACK_IMPORTED_MODULE_6__["ClickerComponent"], _play_field_play_field_component__WEBPACK_IMPORTED_MODULE_8__["PlayFieldComponent"], _info_field_info_field_component__WEBPACK_IMPORTED_MODULE_9__["InfoFieldComponent"]],
+        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__["NoopAnimationsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatButtonModule"]]
       });
     })();
     /*@__PURE__*/
@@ -301,10 +313,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _front_page_front_page_component__WEBPACK_IMPORTED_MODULE_4__["FrontPageComponent"], _clicker_clicker_component__WEBPACK_IMPORTED_MODULE_5__["ClickerComponent"], _play_field_play_field_component__WEBPACK_IMPORTED_MODULE_7__["PlayFieldComponent"], _info_field_info_field_component__WEBPACK_IMPORTED_MODULE_8__["InfoFieldComponent"]],
-          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"]],
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _front_page_front_page_component__WEBPACK_IMPORTED_MODULE_5__["FrontPageComponent"], _clicker_clicker_component__WEBPACK_IMPORTED_MODULE_6__["ClickerComponent"], _play_field_play_field_component__WEBPACK_IMPORTED_MODULE_8__["PlayFieldComponent"], _info_field_info_field_component__WEBPACK_IMPORTED_MODULE_9__["InfoFieldComponent"]],
+          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__["NoopAnimationsModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatButtonModule"]],
           providers: [],
-          bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+          bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         }]
       }], null, null);
     })();
@@ -779,7 +791,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("Your clicks record for ", ctx.recordService.timer, " seconds is ", ctx.recordService.previousRecord || "empty", ".");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("Your clicks record for ", ctx.recordService.tempTimer, " seconds is ", ctx.recordService.previousRecord || "empty", ".");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
@@ -849,7 +861,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_material_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/material/button */
+    "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
@@ -923,7 +941,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-play-field"]],
       decls: 18,
       vars: 5,
-      consts: [["id", "clicker", 3, "disabled", "click"], ["id", "reset", 3, "click"], ["id", "change-name", 3, "click"], [4, "ngIf"]],
+      consts: [["mat-raised-button", "", "id", "clicker", 3, "disabled", "click"], ["mat-raised-button", "", "id", "reset", 3, "click"], ["mat-raised-button", "", "id", "change-name", 3, "click"], [4, "ngIf"]],
       template: function PlayFieldComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -1014,8 +1032,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.recordService.noWinToggle);
         }
       },
-      directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]],
-      styles: ["button[_ngcontent-%COMP%] {\n  font-size: 18px;\n  margin-top: 20px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n\nh2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\n#reset[_ngcontent-%COMP%] {\n  background-color: red;\n}\n\n#change-name[_ngcontent-%COMP%] {\n  background-color: yellow;\n}\n\n#clicker[_ngcontent-%COMP%] {\n  background-color: green;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGxheS1maWVsZC9DOlxcVXNlcnNcXGJib2Rla1xcV29ya3NwYWNlXFxFUEFNX0xBQlxcQW5ndWxhcl9IV18yL3NyY1xcYXBwXFxwbGF5LWZpZWxkXFxwbGF5LWZpZWxkLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9wbGF5LWZpZWxkL3BsYXktZmllbGQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQyxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtFQUNBLG9CQUFBO0FDQ0Q7O0FEQ0E7RUFDQyxrQkFBQTtBQ0VEOztBREFBO0VBQ0MscUJBQUE7QUNHRDs7QUREQTtFQUNDLHdCQUFBO0FDSUQ7O0FERkE7RUFDQyx1QkFBQTtBQ0tEIiwiZmlsZSI6InNyYy9hcHAvcGxheS1maWVsZC9wbGF5LWZpZWxkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYnV0dG9uIHtcclxuXHRmb250LXNpemU6IDE4cHg7XHJcblx0bWFyZ2luLXRvcDogMjBweDtcclxuXHRwYWRkaW5nLXRvcDogMjBweDtcclxuXHRwYWRkaW5nLWJvdHRvbTogMjBweDtcclxufVxyXG5oMiwgaDMge1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG4jcmVzZXQge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHJlZDtcclxufVxyXG4jY2hhbmdlLW5hbWUge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IHllbGxvdztcclxufVxyXG4jY2xpY2tlciB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogZ3JlZW47XHJcbn0iLCJidXR0b24ge1xuICBmb250LXNpemU6IDE4cHg7XG4gIG1hcmdpbi10b3A6IDIwcHg7XG4gIHBhZGRpbmctdG9wOiAyMHB4O1xuICBwYWRkaW5nLWJvdHRvbTogMjBweDtcbn1cblxuaDIsIGgzIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4jcmVzZXQge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7XG59XG5cbiNjaGFuZ2UtbmFtZSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHllbGxvdztcbn1cblxuI2NsaWNrZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBncmVlbjtcbn0iXX0= */"]
+      directives: [_angular_material_button__WEBPACK_IMPORTED_MODULE_3__["MatButton"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"]],
+      styles: ["button[_ngcontent-%COMP%] {\n  font-size: 18px;\n  margin: 20px 3px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  color: black;\n}\n\nh2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%] {\n  text-align: center;\n}\n\n#reset[_ngcontent-%COMP%] {\n  background-color: red;\n}\n\n#change-name[_ngcontent-%COMP%] {\n  background-color: yellow;\n}\n\n#clicker[_ngcontent-%COMP%] {\n  background-color: green;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGxheS1maWVsZC9DOlxcVXNlcnNcXGJib2Rla1xcV29ya3NwYWNlXFxFUEFNX0xBQlxcQW5ndWxhcl9IV18yL3NyY1xcYXBwXFxwbGF5LWZpZWxkXFxwbGF5LWZpZWxkLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9wbGF5LWZpZWxkL3BsYXktZmllbGQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQyxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtFQUNBLG9CQUFBO0VBQ0EsWUFBQTtBQ0NEOztBRENBO0VBQ0Msa0JBQUE7QUNFRDs7QURBQTtFQUNDLHFCQUFBO0FDR0Q7O0FEREE7RUFDQyx3QkFBQTtBQ0lEOztBREZBO0VBQ0MsdUJBQUE7QUNLRCIsImZpbGUiOiJzcmMvYXBwL3BsYXktZmllbGQvcGxheS1maWVsZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImJ1dHRvbiB7XHJcblx0Zm9udC1zaXplOiAxOHB4O1xyXG5cdG1hcmdpbjogMjBweCAzcHg7XHJcblx0cGFkZGluZy10b3A6IDIwcHg7XHJcblx0cGFkZGluZy1ib3R0b206IDIwcHg7XHJcblx0Y29sb3I6IGJsYWNrO1xyXG59XHJcbmgyLCBoMyB7XHJcblx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcbiNyZXNldCB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogcmVkO1xyXG59XHJcbiNjaGFuZ2UtbmFtZSB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogeWVsbG93O1xyXG59XHJcbiNjbGlja2VyIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiBncmVlbjtcclxufSIsImJ1dHRvbiB7XG4gIGZvbnQtc2l6ZTogMThweDtcbiAgbWFyZ2luOiAyMHB4IDNweDtcbiAgcGFkZGluZy10b3A6IDIwcHg7XG4gIHBhZGRpbmctYm90dG9tOiAyMHB4O1xuICBjb2xvcjogYmxhY2s7XG59XG5cbmgyLCBoMyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuI3Jlc2V0IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xufVxuXG4jY2hhbmdlLW5hbWUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB5ZWxsb3c7XG59XG5cbiNjbGlja2VyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogZ3JlZW47XG59Il19 */"]
     });
     /*@__PURE__*/
 
@@ -1068,6 +1086,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RecordsService =
     /*#__PURE__*/
     function () {
+      // test field
       function RecordsService() {
         _classCallCheck(this, RecordsService);
 
